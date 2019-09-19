@@ -13,6 +13,7 @@
     <segmented>{{ segmented }}</segmented>
 {% for object in objects %}    <object>
         <name>{{ object.name }}</name>
+        <verification>{{ object.verification }}</verification>
         <pose>{{ object.pose }}</pose>
         <truncated>{{ object.truncated }}</truncated>
         <difficult>{{ object.difficult }}</difficult>
