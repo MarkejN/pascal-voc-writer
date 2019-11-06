@@ -2,6 +2,7 @@
     <folder>{{ folder }}</folder>
     <filename>{{ filename }}</filename>
     <path>{{ path }}</path>
+    <lastModifiedBy>{{ lastModifiedBy }}</lastModifiedBy>
     <source>
         <database>{{ database }}</database>
     </source>
