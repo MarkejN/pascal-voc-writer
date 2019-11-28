@@ -15,6 +15,7 @@
 {% for object in objects %}    <object>
         <name>{{ object.name }}</name>
         <verification>{{ object.verification }}</verification>
+        <lastModifiedBy>{{ object.lastModifiedBy }}</lastModifiedBy>
         <pose>{{ object.pose }}</pose>
         <truncated>{{ object.truncated }}</truncated>
         <difficult>{{ object.difficult }}</difficult>
